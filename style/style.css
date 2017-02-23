@@ -1,0 +1,34 @@
+html{
+  height:100%;
+}
+body {
+background:#0D343A;
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+overflow:hidden;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper ul li{
+  margin-right: 10px;
+  list-style: none;
+  display: inline;
+}
+.wrapper ul li .rain {
+  display: inline-block;
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  width:1px;
+  height:89px;
+  position: absolute;
+  top:0;
+  animation: fall .963s linear infinite;
+  animation-delay: 5s.
+}
+
+@-webkit-keyframes fall {
+  to {margin-top:900px;}
+}
+
+
